@@ -1,4 +1,79 @@
-# Diabanalytics
-Diabanalytics is my new project. It is about analyzing whether a patient is diabetic or not using certain medical test metrices. This is usually done by measuring sugar levels (mg/dL), but using data and machine learning algorithms, we can predict a person could likely or not likely get diabetes in future. In Diabanalytics, i tried a new style by adding "User Inputs", where the user can give metrices like "Insulin" level , "Glucose" level. This idea is executed on the basis of correlation of values. Like, Glucose level deviation can make Insulin disruption, which is the main cause for diabetes (speaking about diabetes Mellitus).
-I have uploaded a pdf version of the programme code (in python- jupyter), where you can understand the work flow.
-I have the data set (csv file) uploaded with this, that could be utilized for testing, training ML algorithms.
+# Diabetes Analytics
+
+This project analyzes a diabetes dataset to predict whether a patient is diabetic based on various health indicators using machine learning models. The goal is to understand key factors impacting diabetes diagnosis and provide an accurate prediction system.
+
+**Repository Structure:**
+
+Product-Analyst-and-Web-Developer_Horizon_Health_Care/
+
+/- Horizon Healthcare Second Page.pdf - Second page of website print to pdf size
+
+/- Horizon Helthcare Home Page.pdf - First page of website print to pdf size
+
+/- README - Documentation
+
+/- index.html - Full HTML code file
+
+/- stylesheet.css - Full style sheet (CSS) code
+
+# Features and Data Cleaning
+
+- Initial exploration revealed some features had missing values encoded as zeros.
+
+- These were replaced with mean or median values to improve data quality.
+
+- Histograms were used to visualize data distributions before and after imputation.
+
+- Outcome classes are balanced approximately 2:1 between non-diabetic and diabetic patients.
+
+# Methodology
+
+- Data was scaled using StandardScaler.
+
+- The dataset was split into training and testing sets (67:33).
+
+- Four machine learning models were trained and evaluated:
+
+- Random Forest (highest accuracy: 76%)
+
+- Decision Tree
+
+- XGBoost
+
+- Support Vector Machine (SVM)
+
+# Results
+
+- Model accuracy and evaluation metrics (precision, recall, F1-score) were computed.
+
+- Confusion matrices visualized classification performance for each model.
+
+- Feature importance was analyzed from the Random Forest model to identify influential factors.
+
+# Interactive Prediction
+
+- A command-line interface allows entering patient data to predict diabetes likelihood in real time using the trained Random Forest model.
+
+# How to Run
+1) Load the dataset.
+2) Preprocess data by replacing missing values and scaling features.
+3) Train and evaluate models.
+4) Save the best model for future predictions.
+5) Use the input loop for interactive prediction.
+
+# Dependencies
+
+- Python 3.x
+- pandas, numpy, matplotlib, seaborn
+- scikit-learn
+- xgboost (optional for XGBoost model)
+
+**Rights and Usage:**
+
+All reports, documentation, and related artifacts are the intellectual property of Ajmal M S.
+
+Shared resources are provided solely as a record of my involvement, competencies, and learning outcomes.
+
+No content from this repository may be copied, altered, shared, or reused without explicit permission.
+
+© Ajmal M S, 2025
