@@ -4,17 +4,15 @@ This project analyzes a diabetes dataset to predict whether a patient is diabeti
 
 **Repository Structure:**
 
-Product-Analyst-and-Web-Developer_Horizon_Health_Care/
+Diabetes_Analytics/
 
-/- Horizon Healthcare Second Page.pdf - Second page of website print to pdf size
+/- Diabetes_Analytics_2025.pdf - Full report
 
-/- Horizon Helthcare Home Page.pdf - First page of website print to pdf size
+/- Diabetics_Analytics.ipynb - Full Python code
 
-/- README - Documentation
+/- README.md - Documentation
 
-/- index.html - Full HTML code file
-
-/- stylesheet.css - Full style sheet (CSS) code
+/- diabetes.csv - Dataset
 
 # Features and Data Cleaning
 
